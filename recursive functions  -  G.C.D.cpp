@@ -11,7 +11,10 @@ int bmm (int x, int y){
 
 int main() {
 int x,y;
-cin>>x>>y;
+cout<<"please enter first number:";	
+cin>>x;
+cout<<"please enter second number smaller than first:";	
+cin>>y;	
 cout<<gcd(x,y);
 
 
